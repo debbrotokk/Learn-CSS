@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,h1,
+        p {
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            animation-name: anim;
+            animation-duration: 4s;
+
+        }
+
+        p {
+            animation-name: example;
+
+            animation-duration: 4s;
+        }
+        h1 {
+            position: relative;
+            animation-name: pos;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: 2; 
+            /* animation-iteration-count: infinite;  */
+
+            /* animation-direction: reverse; */
+       
+       animation-direction: alternate;
+        }
+
+        @keyframes anim {
+            from {
+                background-color: blueviolet;
+
+            }
+
+            to {
+                background-color: brown;
+            }
+
+        }
+
+        @keyframes example{
+            0% {background-color:aqua }
+            25% {background-color:rgb(72, 255, 0) }
+            50% {background-color:rgb(255, 119, 0) }
+            75% {background-color:rgb(255, 0, 187) }
+
+            100% {background-color:rgb(255, 255, 255) }
+
+ 
+
+        }
+        @keyframes pos{
+            0% {background-color:aqua; left: 0; top: 200; }
+            25% {background-color:rgb(72, 255, 0); left: 200px; top: 0px; }
+            50% {background-color:rgb(255, 119, 0);left: 200px ; top:200px ; }
+            75% {background-color:rgb(255, 0, 187); left: 0px; top: 200px;  }
+
+            100% {background-color:rgb(255, 255, 255); left: 0px; top: 0px; }
+
+ 
+
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+
+
+    </div>
+    <p></p>
+    <h1></h1>
+</body>
+
+</html>

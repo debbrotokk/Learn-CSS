@@ -1,0 +1,56 @@
+/* #firstname	Selects the element with id="firstname"
+.intro	Selects all elements with class="intro"
+p.intro	Selects only <p> elements with class="intro"
+*	Selects all elements
+p	Selects all <p> elements
+div, p	Selects all <div> elements and all <p> elements */
+
+
+body{
+    background-color: lightblue;
+    color: white;
+    background-image: url("https://cdn.educba.com/img/Python-Certification-Course.jpg");
+    background-repeat: repeat-x; //no-repeat;
+    background-position: right top;
+    background-attachment: fixed;//scroll;
+     /* The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page */
+     background-clip: border-box;  
+     background-origin: padding-box;  border-box;  content-box;
+     background-size: 300px 100px; auto;
+     p.dotted {border-style: dotted;}
+     p.dashed {border-style: dashed;}
+     p.solid {border-style: solid;}
+     p.double {border-style: double;}
+     p.groove {border-style: groove;}
+     p.ridge {border-style: ridge;}
+     p.inset {border-style: inset;}
+     p.outset {border-style: outset;}
+     p.none {border-style: none;}
+     p.hidden {border-style: hidden;}
+     p.mix {border-style: dotted dashed solid double;}
+     margin-left: inherit;
+     
+     
+     
+     
+     margin: 25px 50px 75px 100px;
+    text-align: center;
+    height: 200px;
+  width: 50%;
+  
+    font-family: verdana;
+    font-size: 20px;  
+}
+h1, h2, p {
+    text-align: center;
+    color: red;
+  }
+  border:2px solid Tomato;
+  /* background-color: #ffffff;
+  background-image: url("img_tree.png");  
+  background-repeat: no-repeat;
+  background-position: right top; 
+  //////////////////////////////
+   everything declear in one line 
+  background: #ffffff url("img_tree.png") no-repeat right top;
+  */
